@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	mysql2csv.M2c_main()
+	mysql2csv.M2Cmain()
 }

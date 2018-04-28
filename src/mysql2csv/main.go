@@ -4,7 +4,8 @@ import (
 	"flag"
 )
 
-func M2c_main() {
+// M2Cmain is the main entrypoint for the utility.
+func M2Cmain() {
 	versionFlag := flag.Bool("v", false, "Print version")
 	helpFlag := flag.Bool("h", false, "Print help")
 
@@ -16,7 +17,5 @@ func M2c_main() {
 	if *helpFlag {
 		Usage()
 	}
-	
-}
 
-	
+}
