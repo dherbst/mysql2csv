@@ -1,3 +1,5 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/dherbst/mysql2csv)](https://goreportcard.com/report/github.com/dherbst/mysql2csv)
+
 # mysql2csv
 This project helps convert the mysql text result format to csv.  This is necessary if you need to run queries on mysql on Amazon RDS, which does not allow the `SELECT ... INTO ... OUTFILE` syntax because there isn't access to (disc) storage on the server.   Instead you can either copy and paste, or use the `tee` command to save the query output to your local machine and run this command to convert the mysql text output format to csv.
 
