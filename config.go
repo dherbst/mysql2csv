@@ -5,7 +5,9 @@ import (
 )
 
 var (
-	gitsha  string
+	// Gitsha is the git sha this binary was built with.
+	gitsha string
+	// Version is release version of this command.
 	version string
 )
 
@@ -15,6 +17,6 @@ func Usage() {
 }
 
 // Version prints the version for this utility, including the sha the code was built from.
-func Version() {
+func VersionCommand() {
 	fmt.Printf("mysql2csv version %v %v\n", version, gitsha)
 }

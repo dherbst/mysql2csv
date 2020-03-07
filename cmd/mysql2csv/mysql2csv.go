@@ -1,7 +1,7 @@
 package main
 
 import (
-	"mysql2csv"
+	"github.com/dherbst/mysql2csv"
 )
 
 func main() {

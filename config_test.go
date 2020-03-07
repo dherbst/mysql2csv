@@ -9,5 +9,5 @@ func TestUsage(t *testing.T) {
 }
 
 func TestVersion(t *testing.T) {
-	Version()
+	VersionCommand()
 }

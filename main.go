@@ -12,7 +12,7 @@ func M2Cmain() {
 	flag.Parse()
 
 	if *versionFlag {
-		Version()
+		VersionCommand()
 	}
 	if *helpFlag {
 		Usage()
