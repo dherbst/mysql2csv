@@ -16,7 +16,7 @@ func Usage() {
 	fmt.Println("\nUsage: cat file.mysql | mysql2csv")
 }
 
-// Version prints the version for this utility, including the sha the code was built from.
+// VersionCommand prints the version for this utility, including the sha the code was built from.
 func VersionCommand() {
 	fmt.Printf("mysql2csv version %v %v\n", version, gitsha)
 }
